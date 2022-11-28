@@ -23,6 +23,8 @@ window.addEventListener("load", function () {
                     this.game.debug = !this.game.debug;
                 } else if(e.key === 'r') {
                     this.game.start = false;
+                    this.game.score = 0;
+                    this.game.gameTime = 0;
                 }
             });
             window.addEventListener("keyup", (e) => {
@@ -458,9 +460,9 @@ window.addEventListener("load", function () {
             this.ammoInterval = 369;
             this.gameOver = false;
             this.score = 0;
-            this.winningScore = 100;
+            this.winningScore = 50;
             this.gameTime = 0;
-            this.timeLimit = 40000;
+            this.timeLimit = 60000;
             this.speed = 1;
             this.debug = false;
             this.start = false;
