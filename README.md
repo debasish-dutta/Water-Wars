@@ -1,4 +1,4 @@
-# Water Wars
+# [Water Wars](https://debasish-dutta.github.io/Water-Wars/)
 
 ## A project done by [me](https://www.github.com/debasish-dutta) and [Nibir](https://www.github.com/Nibirborkataki) against our Web Tech course work.
 
