@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">  
+    <!-- css -->
+    <title>Water War</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- main -->
+    <h1>Water Wars</h1>
+    <main>
+        <p>
+            A simple game built using the HTML5 canvas and vanilla javascript as a mini project for our coursework as well as to deepen the understandings of javascript functionality and object oriented approach.
+        </p>
+        <p>
+            Fend of enemy ships and alien creatures in this planet of unknown origins filled with water and unknown alien tech with your trusty shaceship and collect power up orbs along the way to defeat the alien colony and its motherships.
+        </p>
+    </main>
+    
+    
+    <canvas id="canvas1"></canvas>
+    
+    <p id="obj">
+        <span style="padding-right: 2px; color:bisque">Objective: &#32;</span> Score 80+ in 40secs to win.
+    </p>
+    <!-- characters -->
+    <img src="game assets/player/Spaceship_04_PURPLE.png" id="player">
+    <img src="game assets/player/Spaceship_04_BLUE.png" id="playerPP">
+    <!-- enemies -->
+    <img src="game assets/enemyships/Buggy_Black_63x69.png" id="buggy">
+    <img src="game assets/enemyships/Overlord_Nightmare_D_261x235.png" id="nightmare">
+    <img src="game assets/enemyships/Galactis_BlackWidow_153x188.png" id="blackWidow">
+    <img src="game assets/enemyships/OrbsWithoutOutline_0008_Circle.png" id="bonus">
+    <img src="game assets/bosses/15.png" id="boss">
+    <img src="game assets/bosses/11B.png" id="minnion">
+    <!-- props -->
+    <img src="game assets/bullets1_0016_Circle------------------.png" id="projectile">
+    <img src="game assets/rocket.png" id="projectileDD">
+    <img src="game assets/explosions-pack-web/spritesheets/smokeExplosion.png" id="smoke">
+    <img src="game assets/explosions-pack-web/spritesheets/explosion-3.png" id="fire">
+    <img src="game assets/explosions-pack-web/spritesheets/explosion-4.png" id="bomb">
+    <!-- env -->
+    <img src="game assets/bg/layer1.png" alt="layer1" id="layer1">
+    <img src="game assets/bg/layer2.png" alt="layer2" id="layer2">
+    <img src="game assets/bg/layer3.png" alt="layer3" id="layer3">
+    <img src="game assets/bg/layer4.png" alt="layer4" id="layer4">
+
+    <!-- footer -->
+    <footer class="page-ftr">
+        <p>&copy; <span id=""date> 2022 </span>
+        <span class="ftr-logo">Water Wars </span>
+        Buit with ❤️ by <br/>
+        <span class="ftr-text"> <a href="https://www.github.com/debasish-dutta" target="_blank">Debasish Dutta </a> <span > && </span> <a href="https://www.github.com/Nibirborkataki" target="_blank"> Nibir Borkataki </a> </span>
+        </p>
+    </footer>
+    <!-- end footer -->
+
+    <script src="app.js"></script>
+</body>
+</html>
